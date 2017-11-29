@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/new_blog_fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id = "@+id/new_blog_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:hint="@string/new_blog_text_hint"/>
+    <Button
+        android:id="@+id/add_new_blog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_blog_text"
+        android:layout_alignParentRight="true"
+        android:onClick="newBlog"
+        android:text="@string/new_blog"/>
+    <Button
+        android:id="@+id/gallery_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_new_blog_button"
+        android:layout_alignParentRight="true"
+        android:onClick="getFromGallery"
+        android:text="Choose Photo"/>
+    <ImageButton
+        android:id = "@+id/photo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/new_blog_text"
+        android:onClick="takePhoto"
+        android:src="@android:drawable/ic_menu_camera"/>
+    <ImageView
+        android:id = "@+id/photo_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/photo_button"/>
+    <com.facebook.share.widget.ShareButton
+        android:id ="@+id/fb_share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_blog_text"
+        android:layout_alignParentLeft="true"/>
+</RelativeLayout>

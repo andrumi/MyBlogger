@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My Blogger</string>
+    <string name="blog_title_hint">Enter a Blog Title</string>
+    <string name="blog_text_hint">Blog Away!</string>
+    <string name="new_blog_text_hint">Got anything to say?</string>
+    <string name="blog_title_label">Title:</string>
+    <string name="blog_text_label">Blog Text:</string>
+    <string name="blog_solved_title">Check to Delete</string>
+    <string name = "add_text">Add</string>
+    <string name = "find_text">Find</string>
+    <string name = "delete_text">Delete</string>
+    <string name = "update_text">Update</string>
+    <string name = "delete_checked">Delete</string>
+    <string name = "new_blog">Add</string>
+    <string name="photo_string">Photo</string>
+    <string name="gallery_string">Gallery</string>
+    <string name="facebook_app_id">160849337777222</string>
+
+
+    <!-- Strings used in app ui-->
+
+    <string name="action_settings">Settings</string>
+    <string name="hello">Hello, </string>
+    <string name="login_instructions">Login to Twitter</string>
+    <string name="share_instructions">Enter share message</string>
+    <string name="btn_login">Login to Twitter</string>
+    <string name="btn_share">Share</string>
+
+    <!-- Twitter Configurations -->
+    <string name="twitter_callback">http://wlv.ac.uk/myblogger</string>
+    <string name="twitter_consumer_key">QnEdbFLDCLDoqOByy5stZbleE</string>
+    <string name="twitter_consumer_secret">cL4JTiWQdRpcZwRIbOiOZEs1wcfRbUG4SqCwogzmdmW1DKC0Uc</string>
+    <string name="twitter_oauth_verifier">oauth_verifier</string>
+    <!-- End Configurations -->
+
+</resources>
